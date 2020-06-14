@@ -21,32 +21,8 @@ module Consul
     config.i18n.default_locale = :en
     available_locales = [
       "ar",
-      "bs",
-      "cs",
-      "da",
-      "de",
-      "el",
       "en",
-      "es",
-      "fa",
-      "fr",
-      "gl",
-      "he",
-      "hr",
-      "id",
-      "it",
-      "nl",
-      "pl",
-      "pt-BR",
-      "ru",
-      "sl",
-      "sq",
-      "so",
-      "sv",
-      "tr",
-      "val",
-      "zh-CN",
-      "zh-TW"]
+      "fr"]
     config.i18n.available_locales = available_locales
     config.i18n.fallbacks = {
       "fr"    => "es",
